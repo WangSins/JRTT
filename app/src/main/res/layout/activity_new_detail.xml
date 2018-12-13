@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrtt.imust.com.jrtt.NewDetailActivity">
+
+    <!--标题栏  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#FF4444"
+        android:layout_height="50dp">
+         <ImageView
+            android:id="@+id/back"
+             style="@style/BACK"/>
+        <TextView
+            android:id="@+id/title"
+            style="@style/TITLE"/>
+        <ImageView
+            android:id="@+id/font"
+            style="@style/FONT"/>
+        <ImageView
+            android:id="@+id/fav"
+            style="@style/FAV"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/progress"
+        style="@style/TITLE"/>
+    <!--网页-->
+    <WebView
+        android:id="@+id/webview"
+        style="@style/WEB_VIEW"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <!--视图的截图画面-->
+    <ImageView
+      android:id="@+id/imge_video"
+        style="@style/IMAGE_VIDEO"/>
+    <!--播放按钮-->
+    <ImageView
+        android:id="@+id/imge_play"
+        style="@style/IMAGE_PLAY"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/TEXT_TITLE"/>
+</RelativeLayout>

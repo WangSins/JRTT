@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="jrtt.imust.com.jrtt.MainActivity">
+    <!--一部分FrameLayout-->
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"/>
+    <!--第二部分选项卡-->
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+        <!--*我们可以在标签上面直接配置属性，也可以在style.xml里面建一个style在这里使用-->
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/RB"
+            android:drawableTop="@drawable/selector_home"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/RB"
+            android:drawableTop="@drawable/selector_video"
+            android:text="西瓜视频"/>
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/RB"
+            android:drawableTop="@drawable/selector_talk"
+            android:text="组图"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            style="@style/RB"
+            android:drawableTop="@drawable/selector_user"
+            android:text="我的"/>
+    </RadioGroup>
+</LinearLayout>

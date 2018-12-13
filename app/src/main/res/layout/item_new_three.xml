@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="160dp">
+    <TextView
+       android:id="@+id/one_channel_new_title"
+        style="@style/NEW_TITLE"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/one_channel_new_image1"
+            android:layout_weight="1"
+            style="@style/NEW_IMAGE"/>
+        <ImageView
+            android:id="@+id/one_channel_new_image2"
+            android:layout_weight="1"
+            style="@style/NEW_IMAGE"/>
+        <ImageView
+            android:id="@+id/one_channel_new_image3"
+            android:layout_weight="1"
+            style="@style/NEW_IMAGE"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/one_channel_new_date"
+        style="@style/NEW_DATE"/>
+</LinearLayout>

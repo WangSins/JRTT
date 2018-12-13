@@ -1,0 +1,183 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 我们就去color.xml中给你修改一下这个颜色. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    
+    <style name="FULL" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="RB">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:drawableTop">@mipmap/ic_launcher</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_font_color</item>
+    </style>
+
+    <!--组图-->
+    <style name="PIC_TITLE">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#FF4444</item>
+        <item name="android:text">组图</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="PIC_LISVIEW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="PIC_IMAGE">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:src">@mipmap/pic_item_list_default</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="PIC_TEXT">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">北京之夜</item>
+        <item name="android:textColor">#C6C6C6</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="LIST_VIEW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="IMAGE_VIDEO">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:src">@mipmap/pic_item_list_default</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="IMAGE_PLAY">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/play_icon</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="TEXT_TITLE">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">我的视频标题</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#93000000</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="TAB_LAYOUT">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFF000</item>
+    </style>
+    <style name="TAB_VIEWPAGER">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="EDIT_SEARCH">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/shape_edit</item>
+
+    </style>
+    <style name="PULL_LIST_VIEW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="NEW_TITLE">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">130dp</item>
+        <item name="android:lines">2</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:text">"我是标题"</item>
+    </style>
+    <style name="NEW_DATE">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:text">"我是日期"</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="NEW_IMAGE">
+    <item name="android:layout_width">120dp</item>
+    <item name="android:layout_height">80dp</item>
+    <item name="android:src">@mipmap/ic_launcher</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="BACK">
+    <item name="android:layout_width">40dp</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:src">@mipmap/back</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="TITLE">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:text">详情</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:layout_centerInParent">true</item>
+
+    </style>
+
+    <style name="FAV">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:src">@mipmap/uncollect</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="FONT">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:src">@mipmap/icon_textsize</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+    <style name="WEB_VIEW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="BUTTON">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">我的收藏</item>
+    </style>
+    <style name="TITLE_BAR">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:text">我的收藏</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#FF553E</item>
+    </style>
+</resources>
