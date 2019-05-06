@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.jakewharton.butterknife'
 android {
     compileSdkVersion 27
-    buildToolsVersion '26.0.3'
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "jrtt.imust.com.jrtt"
         minSdkVersion 21
